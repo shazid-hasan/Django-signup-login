@@ -13,12 +13,12 @@
   <body>
     
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <a class="navbar-brand" href="#">Nai reg</a>
+          <a class="navbar-brand" href="#">REgistration Form</a>
         </nav>
         <div class="container">
-            <h1>welcom her</h1>
+          
             <hr>
-            <form action="." method="post">
+            <form action="" method="post">
                 {% csrf_token %}
                 {{user_form.as_p}}
                 <button type="submit" class="btn btn-lg btn-success">Submit</button>
